@@ -1,0 +1,17 @@
+.layerContent{
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 100%;
+    height: 0%;
+    left: 0;
+    bottom: -200px;
+    color: black;
+    display: flex;
+    align-items: center;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.cardMeal:hover .layerContent{
+    bottom: 0;
+    height: 100%;
+
+}

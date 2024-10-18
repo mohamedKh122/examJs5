@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/sideBar.css">
+</head>
+<body class="bg-black">
+    <div class="sideBar position-fixed text-white">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="barContent bg-black d-flex flex-column justify-content-between position-absolute">
+                        <div class="links">
+                            <ul>
+                                <li><a href="search.html">Search</a></li>
+                                <li><a href="category.html">Categories</a></li>
+                                <li><a href="area.html">Area</a></li>
+                                <li><a href="ingredient.html">Ingredients</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="copyright px-4 mb-4">
+                            <div class="icons">
+                                <i class="fa-brands fa-facebook fs-5"></i>
+                                <i class="fa-brands fa-twitter fs-5"></i>
+                                <i class="fa-solid fa-globe fs-5"></i>
+                            </div>
+                            <p>Copyright Â© 2019 All RightsReserved.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="barFun bg-white text-black d-flex flex-column justify-content-between align-items-center position-absolute">
+                    <div class="image mt-4"><img class="w-100" src="Photos/logo.png" alt="yummy logo"></div>
+                    <div class="open">
+                        <i class="closeIcon fa-solid d-none open-close-icon fa-2x fa-x"></i>
+                        <i class="openIcon fa-solid fa-bars fa-2x"></i>
+                    </div>
+                    <div class="icons mb-4 d-flex flex-column">
+                        <i class="fa-solid fa-globe mb-2 fs-5"></i>
+                        <i class="fa-solid fa-share-nodes fs-5"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <form id="contactForm">
+                <div class="inputs d-flex flex-column justify-content-center align-items-center pb-5">
+                    <div class="fInputs my-2">
+                        <input class="rounded-2 px-3 py-2 mx-2 text-black" type="text" placeholder="Enter Your Name" id="userName" name="userName">
+                        <input class="rounded-2 px-3 py-2 mx-2 text-black" type="email" placeholder="Enter Your Email" id="userEmail" name="userEmail">
+                    </div>
+                    <div class="sInputs my-2">
+                        <input class="rounded-2 px-3 py-2 mx-2 text-black" type="number" placeholder="Enter Your Phone" id="userPhone" name="userPhone">
+                        <input class="rounded-2 px-3 py-2 mx-2 text-black" type="number" placeholder="Enter Your Age" id="userAge" name="userAge">
+                    </div>
+                    <div class="passInputs my-2">
+                        <input class="rounded-2 px-3 py-2 mx-2 text-black" type="password" placeholder="Enter Your password" id="userPassword" name="userPassword">
+                        <input class="rounded-2 px-3 py-2 mx-2 text-black" type="password" placeholder="Repassword" id="RePass" name="RePass">
+                    </div>
+                    <button disabled id="submitButton" type="submit" class="btn mt-3 border border-2 border-danger text-danger">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <script src="JS/index.js"></script>
+</body>
+</html>

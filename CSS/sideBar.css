@@ -1,0 +1,83 @@
+/*Main Rules*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+
+/*Main Rules*/
+/*Start The sideBar*/
+.sideBar{
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.sideBar i{
+    cursor: pointer;
+}
+.sideBar .image{
+    width: 50px;
+}
+.sideBar .barContent, .barFun{
+    height: 100vh;
+}
+.sideBar .barContent .links{
+    padding-top: 30px;
+}
+.sideBar .barContent .links li{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.sideBar .barContent .links li a{
+    color: white;
+}
+.sideBar .barContent{
+    left: -200px;
+    width: 250px;
+    transition: all 0.5s;
+
+}
+.sideBar .barFun{
+    left: 0px;
+    width: 80px;
+    transition: all 0.5s;
+}
+/*End The sideBar*/
+
+
+#MealsHomeRow div{
+    cursor: pointer;
+}
+.inputs input{
+    border: 1px solid gray;
+    outline: none;
+    color: white;
+}
+.layerContent{
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 100%;
+    height: 0%;
+    left: 0;
+    bottom: -200px;
+    color: black;
+    display: flex;
+    align-items: center;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+.cardMeal:hover .layerContent{
+    bottom: 0;
+    height: 100%;
+}
+#contactForm .inputs{
+    height: 100vh;
+}
